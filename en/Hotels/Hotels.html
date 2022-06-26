@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Nova+Flat&family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/style/style.css">
+    <link rel="stylesheet" href="../../assets/style/enStyle.css">
+    <title>الدار البيضاء</title>
+</head>
+
+<body>
+
+    <!-- start top nav bar -->
+    <nav class="top_nav">
+        <div class="links_container flex_space_between">
+            <div class="logo">
+                <a href="../Home.html">
+                    <img src="../../assets/images/whiteHouseLogo.png" alt="">
+                </a>
+            </div>
+            <ul>
+                <li><a href="../AboutUs.html">Who we are</a></li>
+                <li><a href="../Ourservices.html">Our Services</a></li>
+                <li><a href="../RoomReservation.html">Room Reservations</a></li>
+                <li><a href="../HallReservation.html">Halls Reservations</a></li>
+                <li><a href="../Recruitment.html">Recruitment</a></li>
+                <li><a href="../AwardsAndCertificatesOfAppreciation.html">Awards and Certificate of Appreciation</a></li>
+                <li><a href="../ContactUs.html">Contact Us</a></li>
+            </ul>
+            <div class="lang">
+                <select name="" class="language" onchange="selectFun(event)">
+                    <option value="AR">  AR</option>
+                    <option value="EN" selected> EN</option>
+                </select>
+                <div class="mobile_menu_icone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of top nav bar -->
+
+
+    <div class="mobile_menu display_none">
+        <div class="close_icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+        </div>
+        <div class="menu_links flex_all_center_y">
+            <ul>
+                <li><a href="../AboutUs.html">Who we are</a></li>
+                <li><a href="../Ourservices.html">Our Services</a></li>
+                <li><a href="../RoomReservation.html">Room Reservations</a></li>
+                <li><a href="../HallReservation.html">Halls Reservations</a></li>
+                <li><a href="../Recruitment.html">Recruitment</a></li>
+                <li><a href="../AwardsAndCertificatesOfAppreciation.html">Awards and Certificate of Appreciation</a></li>
+                <li><a href="../ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="center_title_header flex_all_center" style="background-image: url('../../assets/images/slide1.jpg')">
+        <span>Hotels</span>
+    </header>
+
+    <div class="switch_carousel">
+        <div id="gadaHotels">
+            <span>Jeddah hotels</span>
+        </div>
+        <div id="makaHotels">
+            <span>Mecca</span>
+        </div>
+        <div id="taaifHotels">
+            <span>Taif</span>
+        </div>
+    </div>
+
+    <!-- start gada hotels -->
+    <div class="hotels_links_container flex_space_between"  id="gadaHotel">
+        <div class="hotel">
+            <div class="img_container">
+                <img src="../../assets/images/elDarElBaydaa.png" alt="">
+            </div>
+            <p>Aldar Albayda'a Grand Hotel</p>
+            <a href="./CasablancaGrandHotel.html">Review</a>
+        </div>
+        <div class="hotel">
+            <div class="img_container">
+                <img src="../../assets/images/elDarElBaydaa.png" alt="">
+            </div>
+            <p>Aldar Albayda'a Alsalamah</p>
+            <a href="./CasablankaAlSalamaHotel.html">Review</a>
+        </div>
+        <div class="hotel">
+            <div class="img_container">
+                <img src="../../assets/images/elDarElBaydaa.png" alt="">
+            </div>
+            <p>Aldar Albayda'a Royal Hotel</p>
+            <a href="./CasablancaRoyalHotel.html">Review</a>
+        </div>
+        <div class="hotel">
+            <div class="img_container">
+                <img src="../../assets/images/elDarElBaydaa.png" alt="">
+            </div>
+            <p>Alsofara'a Palace Hotel Suites</p>
+            <a href="./AmbassadorsPalaceHotelSuites.html">Review</a>
+        </div>
+        <div class="hotel">
+            <div class="img_container">
+                <img src="../../assets/images/elDarElBaydaa.png" alt="">
+            </div>
+            <p>Casablanca House of the Sea Resort</p>
+            <a href="./CasablankaHotel.html">Review</a>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+    <!-- end of gada hotels -->
+
+    <div class="hotels_links_container flex_space_between"  id="makaHotel">
+        <div class="hotel">
+            <div class="img_container">
+                <img src="../../assets/images/elDarElBaydaa.png" alt="">
+            </div>
+            <p>Aldar Albayda'a Aziziah Hotel</p>
+            <a href="./AzizaHotel.html">Review</a>
+        </div>
+        <div class="hotel">
+            <div class="img_container">
+                <img src="../../assets/images/azizaHotelMaster.jpeg" alt="">
+            </div>
+            <p>  Aldar Albayda'a Palace Hotel</p>
+            <a href="WhiteHouse.html">Review</a>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+
+    <div class="hotels_links_container flex_space_between"  id="taaifHotel">
+        <div class="hotel">
+            <div class="img_container">
+                <img src="../../assets/images/taaifhotelMaster.jpeg" alt="">
+            </div>
+            <p>Aldar Albayda'a hotels</p>
+            <a href="CasablankaTaifHotel.html">Review</a>
+        </div>
+        
+        <div> </div>
+        <div> </div>
+    </div>
+   
+
+    <!-- start Footer -->
+    <footer class="footer">
+        <div class="top_footer">
+            <div>
+                <h3>Contact Us</h3>
+                <ul class="left_flex">
+                    <li class="li_border">
+                        <span>+966 0122222203 <br> +966 0126827771</span>
+                        <img src="../../assets/images/phoneIcone.png" alt="">    
+                    </li>
+                    <li class="li_border">
+                        <p>sales@casablanca-grand.com</p>
+                        <img src="../../assets/images/messegeIcon.png" alt="">
+                    </li>
+                    <li>
+                        <p>Jeddah - Saqer Quraish Street</p>
+                        <img src="../../assets/images/locationIcon.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_services">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="Hotels.html"> Hotels  </a></li>
+                    <li><a href="../SupplyandCatering.html"> Supply and Catering </a></li>
+                    <li><a href="../HajjandOmrah.html"> Hajj and Omrah </a></li>
+                    <li><a href="../PartiesandEvents.html">  Events and Parties </a></li>
+                </ul>
+            </div>
+            <div class="footer_category">
+                <ul>
+                    <li> <a href="../OutdoorParties.html">  Events and Parties </a> </li>
+                    <li> <a href="../TransportationServices.html">  Transportation </a> </li>
+                    <li> <a href="../TourismandTravelAgency.html"> Travel and Tourism </a> </li>
+                    <li> <a href="../LogisticServices.html"> Logistic Services </a> </li>
+                </ul>
+            </div>
+            <div>
+                <img src="../../assets/images/whiteHouseLogo.png" alt="">
+            </div>
+        </div>
+        <div class="bottom_footer flex_space_between">
+            <p>Terms and Conditions | Privacy Policy</p>
+            <p>All Rights Are Reserved</p>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    
+    <!-- /// Start Of JS Script /// -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="../../assets/JS/main.js"></script>
+ 
+    <script>
+        var gadaHotels = document.getElementById('gadaHotels');
+        var makaHotels = document.getElementById('makaHotels');
+        var taaifHotels = document.getElementById('taaifHotels');
+        var gadaHotel = document.getElementById('gadaHotel');
+        var makaHotel = document.getElementById('makaHotel');
+        var taaifHotel = document.getElementById('taaifHotel');
+
+        var carouselType = 'gada';
+        checkFunction();
+
+        gadaHotels.addEventListener('click', function (){
+            carouselType = 'gada';
+            console.log('test')
+            checkFunction();
+        })
+        makaHotels.addEventListener('click', function (){
+            carouselType = 'maka';
+            console.log(carouselType)
+            checkFunction();
+        })
+        taaifHotels.addEventListener('click', function (){
+            carouselType = 'taaif';
+            checkFunction();
+        })
+
+        function checkFunction(){
+            if(carouselType == 'gada'){
+                // click style
+                gadaHotels.classList.add('hotel_link_active');
+                makaHotels.classList.remove('hotel_link_active');
+                taaifHotels.classList.remove('hotel_link_active');
+
+                // hotels section toggle
+                gadaHotel.classList.remove('display_none');
+                makaHotel.classList.add('display_none');
+                taaifHotel.classList.add('display_none');
+            } else if(carouselType == 'maka'){
+                // click style
+                gadaHotels.classList.remove('hotel_link_active');
+                makaHotels.classList.add('hotel_link_active');
+                taaifHotels.classList.remove('hotel_link_active');
+
+                // hotels section toggle
+                gadaHotel.classList.add('display_none');
+                makaHotel.classList.remove('display_none');
+                taaifHotel.classList.add('display_none');
+            } else if(carouselType == 'taaif'){
+                // click style
+                gadaHotels.classList.remove('hotel_link_active');
+                makaHotels.classList.remove('hotel_link_active');
+                taaifHotels.classList.add('hotel_link_active');
+
+                // hotels section toggle
+                gadaHotel.classList.add('display_none');
+                makaHotel.classList.add('display_none');
+                taaifHotel.classList.remove('display_none');
+            }
+        }
+
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Nova+Flat&family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/style/style.css">
+    
+    <title>الدار البيضاء</title>
+</head>
+
+<body>
+
+    <!-- start top nav bar -->
+    <nav class="top_nav">
+        <div class="links_container flex_space_between">
+            <div class="logo">
+                <a href="../Home.html">
+                    <img src="../../assets/images/whiteHouseLogo.png" alt="">
+                </a>
+            </div>
+            <ul>
+                <li><a href="../AboutUs.html">من نحن</a></li>
+                <li><a href="../Ourservices.html">خدماتنا</a></li>
+                <li><a href="../RoomReservation.html">حجز الغرف</a></li>
+                <li><a href="../HallReservation.html">حجز القاعات</a></li>
+                <li><a href="../Recruitment.html">التوظيف</a></li>
+                <li><a href="../AwardsAndCertificatesOfAppreciation.html">الجوائز وشهادات الشكر</a></li>
+                <li><a href="../ContactUs.html">اتصل بنا</a></li>
+            </ul>
+            <div class="lang">
+                <select name="" class="language" onchange="selectFun(event)">
+                    <option value="AR" selected>  AR</option>
+                    <option value="EN"> EN</option>
+                </select>
+                <div class="mobile_menu_icone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of top nav bar -->
+
+    
+    <div class="mobile_menu display_none">
+        <div class="close_icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+        </div>
+        <div class="menu_links flex_all_center_y">
+            <ul>
+                <li><a href="../AboutUs.html">من نحن</a></li>
+                <li><a href="../Ourservices.html">خدماتنا</a></li>
+                <li><a href="../RoomReservation.html">حجز الغرف</a></li>
+                <li><a href="../HallReservation.html">حجز القاعات</a></li>
+                <li><a href="../Recruitment.html">التوظيف</a></li>
+                <li><a href="../AwardsAndCertificatesOfAppreciation.html">الجوائز وشهادات الشكر</a></li>
+                <li><a href="../ContactUs.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="routing_container">
+        <h3 class="title text-right"> <a href="Hotels.html">الفنادق</a> / مكة</h3>
+        <div class="cover">
+            <div class="head_cover flex_space_between">
+                <p>فندق قصر الدار البيضاء</p>
+                <div class="btns flex_space_between">
+               
+                    <a href="/RoomReservation" class="btn"> حجز </a>
+                </div>
+            </div>
+            <div class="cover_image">
+                <img class="img-fluid" src="../../assets/images/darmakkah.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    
+        <!-- start carousel -->
+    <div class="page_container">
+        <div class="hotelCarousel">
+            <div class="room_carousel_container">
+                <div class="rooms_carousel">
+                    <div class="room">
+                       <img src="../../assets/images/CasablancaPalaceHotel1.png" alt="">
+                    </div>
+                    <div class="room">
+                        <img src="../../assets/images/CasablancaPalaceHotel2.png" alt="">
+                    </div>
+                    <div class="room">
+                        <img src="../../assets/images/CasablancaPalaceHotel3.png" alt="">
+                    </div>
+                    <button class="nextProduct" @click="next()">&#10094;</button>
+                    <button class="pervProduct" @click="previous()">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page_container">
+        <!-- start description  -->
+        <section class="type_one_descriptipn my-4">
+            <p>
+                يعد أحد الفنادق المجموعة الدار البيضاء واستكمالا لمشاريع التنمية السياحية والفندقية والخدمية والتي تقوم بها إدارة المجموعة في منطقة مكة المكرمة ، وهو أحد فنادق الدرجة الأولى تصنيفاً, ويقع الفندق بمنطقة العزيزية الجنوبي بجوار هيئة الرقابة والتحقيق ويحتوي على 140 غرفة وجناح تم تصميمها وفقاًل ارقى المستويات الفندقية والخدمية التي تناسب راحة حجاج ومعتمرين بيت الله الحرام حيث يبعد الفندق مسافة 15 دقيقة عن الحرم المكي الشريف وايضاً 7 دقائق عن المشاعر المقدسة وقد تم الحاق جميع الخدمات التي يحتاجها ضيوف الرحمن على مدار موسم الحج والعمرة<br> مثل خدمة الأنترنت مجاناً ومسجد خاص للرجال وأخر خاص بالنساء ومطعم يقدم الوجبات الثلاثة خاص بالرجال وأيضا أخر خاص بالنساء, بالإضافة إلى تقديم خدمة الانتقال من الفندق إلى الحرم المكي الشريف على مدار موسم العمرة و موسم الحج . كما يضم الفندق العديد من قاعات الحفلات والمناسبات والتي تتناسب مع الذوق العربي الأصيل ليلائم رغبة كثير من العائلات السعودية العربية.<br> ويقع الفندق في منطقة العزيزية علي امتداد الطريق المباشر المؤدي إلى الحرم المكي من خلال نفق العزيزية ويبعد عنه الحرم المكي مسافة 7 دقائق وعن المشاعر المقدسة ( مني – مزدلفة – عرفات ) ما يقارب من 11 دقيقة، يحتوى الفندق على 150 غرفة فندقية تم تصميمها وفقاً للمعايير الفندقية العالمية لتتناسب مع رغبة ضيوف الرحمن من حجاج ومعتمرين بيت الله الحرام ، هذا بالإضافة إلى جانب الخدمات الفندقية الخاصة بنقل المعتمرين على مدار الخمس صلوات خلال موسم العمرة ، فضلاً عن استضافة الفندق للعديد من شركات الحج والبعثات الرسمية من مخلف الدول وخدمات الإمداد والتموين المقدمة له بالفندق والمشاعر المقدسة .
+            </p>
+        </section>
+        <!-- start description  -->
+    </div>
+    <div class="HotelContactUs">
+        <h3>اتصل بنا</h3>
+        <p>966125666862+</p>
+        <p>sales@casablanca-ksa.com</p>
+        <p>المملكة العربية السعودية – جدة</p>
+        <p>ص.ب : 3655-21481 جدة</p>
+    </div>
+
+
+
+
+    <!-- start Footer -->
+    <footer class="footer">
+        <div class="top_footer">
+            <div>
+                <h3>أتصل بنا</h3>
+                <ul class="left_flex">
+                    <li class="li_border">
+                        <span>9660122222203+ <br> 9660126827771+ </span>
+                        <img src="../assets/images/phoneIcone.png" alt="">    
+                    </li>
+                    <li class="li_border">
+                        <p>sales@casablanca-grand.com</p>
+                        <img src="../assets/images/messegeIcon.png" alt="">
+                    </li>
+                    <li>
+                        <p>جدة شارع صقر قريش</p>
+                        <img src="../assets/images/locationIcon.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_services">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="Hotels.html"> الفنادق </a></li>
+                    <li><a href="../SupplyandCatering.html"> الإمداد و التموين </a></li>
+                    <li><a href="../HajjandOmrah.html"> الحج و العمرة </a></li>
+                    <li><a href="../PartiesandEvents.html"> الفعاليات و المناسبات </a></li>
+                </ul>
+            </div>
+            <div class="footer_category">
+                <ul>
+                    <li> <a href="../OutdoorParties.html"> الحفلات الخارجية </a> </li>
+                    <li> <a href="../TransportationServices.html"> النقل و المواصلات </a> </li>
+                    <li> <a href="../TourismandTravelAgency.html"> السفر و السياحة </a> </li>
+                    <li> <a href="../LogisticServices.html"> الخدمات اللوجستية </a> </li>
+                </ul>
+            </div>
+            <div>
+                <img src="../../assets/images/whiteHouseLogo.png" alt="">
+            </div>
+        </div>
+        <div class="bottom_footer flex_space_between">
+            <p>الشروط والأحكام | سياسة الخصوصية</p>
+            <p>جميع الحقوق مفوظة</p>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    
+    <!-- /// Start Of JS Script /// -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="../../assets/JS/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+* {
+    direction: ltr !important;
+}
+
+.title_with_right_border .rightBorder{
+    margin-right: 10px !important;
+}
+.titles_with_points p svg{
+    margin-right: 20px !important;
+}
+.routing_container .cover .head_cover .btns .btn:first-child{
+    margin-right: 20px !important;
+}
+.hotel_services .servicesContainer .service svg {
+    margin-right: 10px !important;
+}
+.home_page .recruitment .description {
+    margin: 54px 0 0 50px;
+}
+.home_page .limited_offers .description .offers_img {
+    right: -278px;
+    left: unset;
+}
+#carouselExampleControls .carousel-item .slider_description{
+    padding-left: 10% !important;
+}
+.Bottom_nav .filters_container{
+    margin-right: 30px !important;
+}
+.Bottom_nav .filters_container .filter{
+    margin-right: 20px !important;
+}
+.top_nav .links_container ul li{
+    margin-right: 10px !important;
+    margin-left: 0px !important;
+}
+.footer .top_footer >div ul img{
+    margin-left: 10px !important;
+}
+.home_page .recruitment .links_container a{
+    margin-right: 20px !important;
+}
+.home_page .rooms .rooms_carousel .nextProduct{
+    right: 313px;
+    left: unset;
+}
+.hotelCarousel .rooms_carousel .nextProduct{
+    left: 0;
+    right: unset;
+}
+
+.hotelCarousel .rooms_carousel .pervProduct{
+    right: 0;
+    left: unset;
+}
+
+.contact_us .description{
+    margin: 54px 0 0 50px !important;
+}
+.AlSafwaa_img_container > div{
+    margin: 0 30px 30px 0 !important;
+}
+.recruitment .description {
+    margin: 54px 0 0 50px;
+}
+
+
+
+
+
+@media(max-width: 1700px) {
+    .home_page .limited_offers .description {
+        padding: 157px 150px;
+    }
+}
+@media(max-width: 1500px) {
+    .home_page .limited_offers .description {
+        padding: 157px 100px;
+    }
+    .home_page .limited_offers .description .offers_img {
+        right: -38%;
+        left: unset;
+    }
+    .home_page .rooms .rooms_carousel .nextProduct{
+        right: 100px;
+        left: unset;
+    }
+    .hotelCarousel .rooms_carousel .nextProduct{
+        left: 100px;
+        right: unset;
+    }
+}
+@media(max-width: 1400px) {
+    .top_nav .links_container ul li a{
+        font-size: 12px;
+    }
+}
+@media(max-width: 1200px) {
+    .contact_us .description{
+        margin: 54px 0 0 0 !important; 
+    }
+    .recruitment .description {
+        margin: 54px 0 0 0;
+    }
+}
+@media(max-width: 992px) {
+    .home_page .recruitment .description {
+        margin: 54px 0 0 0;
+    }
+    .home_page .rooms .rooms_carousel .nextProduct{
+        right: 40px;
+        left: unset;
+    }
+    .hotelCarousel .rooms_carousel .nextProduct{
+        left: 40px;
+        right: unset;
+    }
+}
+
+@media(max-width: 576px) {
+    .routing_container .cover .head_cover .btns .btn:first-child{
+        margin: 0 0 10px 0 !important;
+    }
+
+    .home_page .recruitment .links_container a{
+        margin: 0 0 20px 0 !important;
+    }
+    .home_page .limited_offers .description {
+        padding: 100px 20px;
+    }
+}

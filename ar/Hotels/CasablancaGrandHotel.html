@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Nova+Flat&family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/style/style.css">
+    <style>
+    .hotel_sections_type2{
+        background-color: transparent;
+        border: 1px solid #100446;
+        border-radius: 20px;
+        padding: 0 !important;
+        overflow: hidden;
+    }
+    .hotel_sections_type2 h3{
+        width: 50%;
+        color: #100446;
+        padding: 20px 0;
+        cursor: pointer;
+    }
+    </style>
+    <title>الدار البيضاء</title>
+</head>
+
+<body>
+
+    <!-- start top nav bar -->
+    <nav class="top_nav">
+        <div class="links_container flex_space_between">
+            <div class="logo">
+                <a href="../Home.html">
+                    <img src="../../assets/images/whiteHouseLogo.png" alt="">
+                </a>
+            </div>
+            <ul>
+                <li><a href="../AboutUs.html">من نحن</a></li>
+                <li><a href="../Ourservices.html">خدماتنا</a></li>
+                <li><a href="../RoomReservation.html">حجز الغرف</a></li>
+                <li><a href="../HallReservation.html">حجز القاعات</a></li>
+                <li><a href="../Recruitment.html">التوظيف</a></li>
+                <li><a href="../AwardsAndCertificatesOfAppreciation.html">الجوائز وشهادات الشكر</a></li>
+                <li><a href="../ContactUs.html">اتصل بنا</a></li>
+            </ul>
+            <div class="lang">
+                <select name="" class="language" onchange="selectFun(event)">
+                    <option value="AR" selected>  AR</option>
+                    <option value="EN"> EN</option>
+                </select>
+                <div class="mobile_menu_icone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of top nav bar -->
+
+    
+    <div class="mobile_menu display_none">
+        <div class="close_icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+        </div>
+        <div class="menu_links flex_all_center_y">
+            <ul>
+                <li><a href="../AboutUs.html">من نحن</a></li>
+                <li><a href="../Ourservices.html">خدماتنا</a></li>
+                <li><a href="../RoomReservation.html">حجز الغرف</a></li>
+                <li><a href="../HallReservation.html">حجز القاعات</a></li>
+                <li><a href="../Recruitment.html">التوظيف</a></li>
+                <li><a href="../AwardsAndCertificatesOfAppreciation.html">الجوائز وشهادات الشكر</a></li>
+                <li><a href="../ContactUs.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-- start routing  -->
+<section class="routing_container w-100">
+    <h3 class="title text-right"> <a href="Hotels.html">الفنادق</a> / جدة</h3>
+    <div class="cover">
+        <div class="head_cover flex_space_between">
+            <p>فندق الدار البيضاء جراند</p>
+            <div class="btns flex_space_between">
+                
+                <a href="https://tour.visioncapture.sa/tour/casablanca-hotel-al-" class="btn"> جولة افتراضية </a>
+                <a href="/RoomReservation" class="btn"> حجز </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section routing -->
+
+<div class="hotel_header_type2 page_container">
+    <div class="img_container">
+        <img src="../../assets/images/CasablancaGrandHotelHeader.png" alt="">
+    </div>
+    <div class="hotel_description">
+        <p>يعد الفندق أحدث مشاريع شركة الدار البيضاء للخدمات الفندقية بمدينة جدة وبمستوى جديد من التصنيف ذو الـ 5 نجوم وقد صمم وفقا لأحدث المعايير التكنولوجية في تقديم الخدمات الفندقية. يتميز فندق الدار البيضاء جراند بتصنيف الخمس نجوم وبموقعه الأستراتيجي بمدينة جدة عروس البحر الاحمر  علي طريق المدينة المنورة وقربه من مطار الملك عبد العزيز الدولي فقط 4 دقائق وبموقعه الفريد امام أحد اشهر مراكز التسوق بمدينة جدة  مول العرب  كما يبعد عن مطار الصالة الاجنبية فقط 10 دقائق ويتميز بقربه من القنصليات واكبر الشركات التجارية في مجال المال والأعمال كما يبعد فقط 15دقيقة من كورنيش جدة الساحر</p>
+    </div>
+</div>
+
+<div class="page_container">
+    <div class="hotel_sections_type2 flex_all_center">
+        <h3 id="resturantClick">مطاعم الفندق</h3>
+        <h3 id="hallsClick">قاعات الفندق</h3>
+    </div>
+</div>
+
+<!-- HOTEL Resturants -->
+<div class="page_container" id="resturantContent">
+    <div class="hotel_halls_container">
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img">
+                    <!-- <img src="../../assets/images/AlfursanHall.png" alt=""> -->
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel" id="ewanRooms_carousel">
+                                <button class="nextProduct" id="nextProduct" onclick="ewanNextImg()">&#10094;</button>
+                                <button class="pervProduct" id="pervProduct" onclick="ewanPrevious()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- start carousel -->
+            </div>
+            <div class="description">
+                <h3>مطعم إيوان</h3>
+                <p>ويتسع لعدد 80 شخص تقريباً. ويقع بمنطقة بهو الفندق الرئيسي ويقدم بوفيه الأفطار والغداء و العشاء اليومي ، بالإضافة الى مختارات من قوائم الطعام المتنوعة من روائع الشيف من إختيارك قائمة طعام مختارة </p>   
+            </div>
+        </div>
+
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img bostan_man_img">
+                    <!-- <img src="../../assets/images/AlBustanRestaurant.png" alt=""> -->
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel" id="bostanRooms_carousel">
+                                <button class="nextProduct" onclick="bostanNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="bostanPrevious()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h3>البستان</h3>
+                <p>و يتميز بإطلالته البانوراميه على مدينه جدة و يقدم يوميا مختارات من قوائم الطعام على حوض السباحه مع تشكيله متنوعه من العطائر الطازجه و الإرجيلية المميزه و المحلويات الشرقيه و الغربيه التي أعدت من عدة بلدان عربيه او اوروبيه وذلك خلال الفترة من 11 صباحا حتي الساعه 12 بعد منتصف الليل</p>
+            </div>
+        </div>
+
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img coffeegarden_man_img">
+                    <!-- <img src="../../assets/images/Coffeegarden.png" alt=""> -->
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel" id="coffeegardenRooms_carousel">
+                                <button class="nextProduct" onclick="coffeegardenNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="coffeegardenPrevious()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h3>حديقة القهوة</h3>
+                <p>يقدم تشكيلة متنوعة من العصائر الطازجة والأرجيلة المميزة والحلويات الشرقية والغربية التى أعدت من عدة بلدان عربية وأوربية في أجواء طربية وذلك خلال الفترة من 1 ظهرا حتى الساعة 1 بعد منتصف الليل.</p>
+            </div>
+        </div>
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img baristaCafe_main_img">
+                    <!-- <img src="../../assets/images/BaristaCafe.png" alt=""> -->
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel" id="baristaCafeRooms_carousel">
+                                <button class="nextProduct" onclick="baristaCafeNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="baristaCafePrevious()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h3>باريستا كافيه</h3>
+                <p>ويقدم يوميا مختارات من العصائر الطازجة والمشروبات الساخنة . ومختارات من قوائم الطعام الخفيفة والحلويات باطلالة مميزة علي مدينة جدة. ويتسع لعدد 50 – 70 شخص مفتوح على مدار 24 ساعة يومياً</p>
+            </div>
+        </div>
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img lemongrassRestaurant_main_img">
+                    <!-- <img src="../../assets/images/LemongrassRestaurant.png" alt=""> -->
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel" id="lemongrassRestaurantRooms_carousel">
+                                <button class="nextProduct" onclick="lemongrassRestaurantNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="lemongrassRestaurantPrevious()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h3>مطعم ليمون جراس</h3>
+                <p>اطلالة بانورامية لمدينة جدة ويقدم العديد من قوائم طعام اليابانية والصينية المتخصصة والمتنوعة. وقد صمم وفقاً لديكورات أسيوية مميزة ويعمل المطعم من الساعة 4 مساء الى 12 مساء.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- HOTEL Halls -->
+<div class="page_container" id="hallsContent">
+    <div class="hotel_halls_container">
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img alfursanHallll_main_img">
+                    <!-- <img src="../../assets/images/AlfursanHallll.png" alt=""> -->
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel" id="alfursanHallllRooms_carousel">
+                                <button class="nextProduct" onclick="alfursanHallllNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="alfursanHallllPrevious()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- start carousel -->
+            </div>
+            <div class="description">
+                <h3>قاعة الفرسان</h3>
+                <p>طراز معمارياً أنيق. متناغما مع فخامة الديكور وروعة التصميم وقد صممت خصيصا لأحتفالات الرجال وتتسع لعدد من 50-80 شخص تقريبا. مع قوائم طعام أعدت بعناية فائقة لتناسب كافة الأذواق .</p>
+            </div>
+        </div>
+
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img myflowerHall_main_img">
+                    <!-- <img src="../../assets/images/MyflowerHall.png" alt=""> -->
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel" id="myflowerHallRooms_carousel">
+                                <button class="nextProduct" onclick="myflowerHallNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="myflowerHallPrevious()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h3>قاعة ماي فلاور</h3>
+                <p>صممت وفقا لديكورات فندقية رفيعة المستوى, مع مختارات من روائع الشيف من أشهى قوائم الطعام الشرقية والغربية. وتتسع القاعة لعدد من 80-200 شخص تقريباً مع أكبر شاشات العرض في مجال الحفلات لتجعل من حفلك … ذكرى خالدة .</p>   
+            </div>
+        </div>
+
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img elyseehall_main_img">
+                    <!-- <img src="../../assets/images/Elyseehall.png" alt=""> -->
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel" id="elyseehallRooms_carousel">
+                                <button class="nextProduct" onclick="elyseehallNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="elyseehallPrevious()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h3>قاعة الإليزيه</h3>
+                <p>أبداع من الديكورات الفرنسية والكلاسيكية لحفل أسطورياً. مع ضيافة مميزة ومختارات من قوائم الطعام التى تتناسب مع مختلف الأذواق وتتسع القاعة لعدد من 240-260 شخص تقريبا. وقد تم تجهيزها وفقا لأحدث تكنولوجيا متطورة في مجال أقامة الحفلات والمناسبات.</p>
+            </div>
+        </div>
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img">
+                    <img src="../../assets/images/MeetingRoom.png" alt="">
+                </div>
+            </div>
+            <div class="description">
+                <h3>قاعة الاجتماعات</h3>
+                <p>صممت لكي تلائم مجال الأعمال والدورات التدريبية والأجتماعات بطراز (u– shape) مع أحدث التقنيات التكنولوجية السمعية والبصرية. وتتسع لعدد من 20 – 25 شخص تقريباً مع مختارات من قوائم الطعام الخفيفة والمشروبات الباردة والساخنة.</p>  
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- hotel services -->
+<div class="page_container">
+    <div class="hotel_services flex_space_between">
+        <h3>خدمات الفندق</h3>
+        <div class="servicesContainer">
+            <h4 class="title_with_right_border"> <div class="rightBorder"></div>في الغرفة </h4>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  ماكينة قهوة </span>
+                    <p> توجد ماكينة خاصة بالقهوة بغرفتك يوجد بجانبها أرشادات لأستخدام الخاصة بها وتقدم مجانا خلال الأقامة. </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  الجاكوزي </span>
+                    <p> جميع أجنحة الفندق مزودة بجاكوزي أضافة إلى وجود تليفزيون مرئي بالجاكوزي الخاص بالأجنحة الملكية والتي تضفي مزيدا من الأسترخاء إلى أقامتك لدينا. </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  الإشراف الداخلي </span>
+                    <p> في خدمتكم على مدار الـ 24 ساعة. من خلال طاقم عمل مدرب وفقا لأحدث معايير أداء الخدمة الفندقية. كما يسعده خدمتك في توفير كافة سبل الراحة خلال فترة أقامتكم معنا . </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  خدمة الغرف </span>
+                    <p> تقدم وجبات مختارة من روائع الشيف مع مختارات من أشهى الأطباق العربية والعالمية على مدار الــ 24 ساعة إذا كان لديك رغبة في أصناف خاصة فأن فريق الطهاة يسعده خدمتك. </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  الإنترنت </span>
+                    <p> حرصت أدارة الفندق على تقديم أفضل خدمات الأعمال خلال أقامتك بالفندق لذا يرجى الأستفسار عن الرقم السري من طاقم العمل لربط جهازك بخدمة الأنترنت الاسلكى ( مجانا ) . </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  الخدمات الترفيهية </span>
+                    <p> يوجد في تلفاز غرفتك العديد من الخدمات الترفيهية والأفلام العربية والعالمية الحديثة المقدمة وفقا لأسعار إضافية خاصة بها أضافة إلى خدمات الإيقاظ وخدمات أحوال الطقس وأسعار العملات ومواعيد الرحلات يمكنك الأطلاع عليها من خلال تلفاز الغرفة. </p>
+                </div>
+            </div>
+        </div>
+        <div class="servicesContainer">
+            <h4 class="title_with_right_border"> <div class="rightBorder"></div>في الفندق </h4>
+            <div class="hotelServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> المصلى </span>
+                    <p> يوفر الفندق مصلى خاص بالرجال بالدور(S) ومصلى بالنساء بالدور(R) كما تتواجد علامة القبلة في غرفتك </p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> النادي الرياضي </span>
+                    <p> يتوافر بالفندق حمام سباحة بالطابق العلوي (مع أطلالة رائعة على مدينة جدة.) يعمل من الساعة 8 صباحا – 12 منتصف الليل ,وقد زود بجاكوزى خاص مع تقديم خدمات الأسترخاء والمساج على يد طاقم طبي مدرب أضافة إلى مركز للياقة تم تجهيزه بأحدث الأجهزة الرياضية </p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> قسم خدمة العملاء </span>
+                    <p> إن فريق العمل بإستعلامات البهو الرئيسي يسعده خدمتك على مدار اليوم. من خلال ترتيب الرحلات السياحية أو الأستفسار عن كل ما يخص المعالم السياحية بالمدينة, وكذلك تأمين خدمات الأنتقال من وإلى المطار والعديد من أستفسارتكم خلال فترة الاقامة بالفندق. </p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> المغسلة </span>
+                    <p> تقدم إدارة الفندق خدمات التنظيف والكي بالبخار وخدمة التنظيف خلال فترة إقامتكم وخدمة التنظيف السريع مستخدمة أحدث أجهزة التعقيم والبخار وفقاً لأسلوب فندقي رفيع المستوى. </p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> نادي الأطفال </span>
+                    <p> قد حرصت أدارة الفندق على تقديم العديد من الترفيه لأطفالكم مع تواجد طاقم الخدمة للعناية بأطفالكم على مدار فترة الأقامة بالفندق. </p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> مركز خدمة الأعمال </span>
+                    <p> مركز الأعمال يعمل أعتبارا من الساعة 9 صباحاً و حتى منتصف الليل ويقدم خدمات السكرتارية وأرسال وأستقبال البريد الألكتروني والفاكسات وطباعة وتصوير المستندات أضافة إلى أجهزة كمبيوتر خاصة مزودة بخدمة الأنترنت عالي السرعة. كما أن طاقم العمل لدينا مؤهل لأستقبال كافة أعمالك اليومية ومساعدتك في أنجازها بعناية فائقة. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="HotelContactUs">
+    <h3>اتصل بنا</h3>
+    <p>966122222203+</p>
+    <p>sales@casablanca-ksa.com</p>
+    <p>المملكة العربية السعودية – جدة</p>
+    <p>ص.ب : 3655-21481 جدة</p>
+</div>
+
+
+
+    <!-- start Footer -->
+    <footer class="footer">
+        <div class="top_footer">
+            <div>
+                <h3>أتصل بنا</h3>
+                <ul class="left_flex">
+                    <li class="li_border">
+                        <span>9660122222203+ <br> 9660126827771+</span>
+                        <img src="../../assets/images/phoneIcone.png" alt="">   
+                    </li>
+                    <li class="li_border">
+                        <p>sales@casablanca-grand.com</p>
+                        <img src="../../assets/images/messegeIcon.png" alt="">
+                    </li>
+                    <li>
+                        <p>جدة شارع صقر قريش</p>
+                        <img src="../../assets/images/locationIcon.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_services">
+                <h3>الخدمات</h3>
+                <ul>
+                    <li><a href="Hotels.html"> الفنادق </a></li>
+                    <li><a href="../SupplyandCatering.html"> الإمداد و التموين </a></li>
+                    <li><a href="../HajjandOmrah.html"> الحج و العمرة </a></li>
+                    <li><a href="../PartiesandEvents.html"> الفعاليات و المناسبات </a></li>
+                </ul>
+            </div>
+            <div class="footer_category">
+                <ul>
+                    <li> <a href="../OutdoorParties.html"> الحفلات الخارجية </a> </li>
+                    <li> <a href="../TransportationServices.html"> النقل و المواصلات </a> </li>
+                    <li> <a href="../TourismandTravelAgency.html"> السفر و السياحة </a> </li>
+                    <li> <a href="../LogisticServices.html"> الخدمات اللوجستية </a> </li>
+                </ul>
+            </div>
+            <div>
+                <img src="../../assets/images/whiteHouseLogo.png" alt="">
+            </div>
+        </div>
+        <div class="bottom_footer flex_space_between">
+            <p>الشروط والأحكام | سياسة الخصوصية</p>
+            <p>جميع الحقوق مفوظة</p>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    
+    <!-- /// Start Of JS Script /// -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="../../assets/JS/main.js"></script>
+    
+
+    <script>
+        var resturantClick = document.getElementById('resturantClick');
+        var hallsClick = document.getElementById('hallsClick');
+
+        var resturantContent = document.getElementById('resturantContent');
+        var hallsContent = document.getElementById('hallsContent');
+
+        var carouselType = 'resturant';
+        checkFunction();
+
+        resturantClick.addEventListener('click', function (){
+            carouselType = 'resturant';
+            checkFunction();
+        })
+        hallsClick.addEventListener('click', function (){
+            carouselType = 'halls';
+            checkFunction();
+        })
+
+        function checkFunction(){
+            if(carouselType == 'resturant'){
+                // click style
+                resturantClick.classList.add('hotel_section_active');
+                hallsClick.classList.remove('hotel_section_active');
+
+                // hotels section toggle
+                resturantContent.classList.remove('display_none');
+                hallsContent.classList.add('display_none');
+            } else if(carouselType == 'halls'){
+                // click style
+                resturantClick.classList.remove('hotel_section_active');
+                hallsClick.classList.add('hotel_section_active');
+
+                // hotels section toggle
+                resturantContent.classList.add('display_none');
+                hallsContent.classList.remove('display_none');
+            }
+        }
+
+        
+    </script>
+    <script src="../../assets/JS/Carousels/CasablancaGrandHotel.js"></script>
+
+</body>
+
+</html>

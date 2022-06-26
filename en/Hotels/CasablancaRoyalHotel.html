@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Nova+Flat&family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/style/style.css">
+    <link rel="stylesheet" href="../../assets/style/enStyle.css">
+    
+    <title>الدار البيضاء</title>
+</head>
+
+<body>
+
+    <!-- start top nav bar -->
+    <nav class="top_nav">
+        <div class="links_container flex_space_between">
+            <div class="logo">
+                <a href="../Home.html">
+                    <img src="../../assets/images/whiteHouseLogo.png" alt="">
+                </a>
+            </div>
+            <ul>
+                <li><a href="../AboutUs.html">Who we are</a></li>
+                <li><a href="../Ourservices.html">Our Services</a></li>
+                <li><a href="../RoomReservation.html">Room Reservations</a></li>
+                <li><a href="../HallReservation.html">Halls Reservations</a></li>
+                <li><a href="../Recruitment.html">Recruitment</a></li>
+                <li><a href="../AwardsAndCertificatesOfAppreciation.html">Awards and Certificate of Appreciation</a></li>
+                <li><a href="../ContactUs.html">Contact Us</a></li>
+            </ul>
+            <div class="lang">
+                <select name="" class="language" onchange="selectFun(event)">
+                    <option value="AR">  AR</option>
+                    <option value="EN" selected> EN</option>
+                </select>
+                <div class="mobile_menu_icone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of top nav bar -->
+
+
+    <div class="mobile_menu display_none">
+        <div class="close_icone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+        </div>
+        <div class="menu_links flex_all_center_y">
+            <ul>
+                <li><a href="../AboutUs.html">Who we are</a></li>
+                <li><a href="../Ourservices.html">Our Services</a></li>
+                <li><a href="../RoomReservation.html">Room Reservations</a></li>
+                <li><a href="../HallReservation.html">Halls Reservations</a></li>
+                <li><a href="../Recruitment.html">Recruitment</a></li>
+                <li><a href="../AwardsAndCertificatesOfAppreciation.html">Awards and Certificate of Appreciation</a></li>
+                <li><a href="../ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+ <!-- start routing  -->
+ <section class="routing_container w-100">
+    <h3 class="title text-right"> <a href="./Hotels.html">Hotels</a> / Jeddah</h3>
+    <div class="cover">
+        <div class="head_cover flex_space_between">
+            <p>Casablanca Royal Hotel</p>
+            <div class="btns flex_space_between">
+                <button class="btn"> Virtual tour </button>
+                <router-link to="/RoomReservation" class="btn"> Reservation </router-link>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section routing -->
+
+<div class="hotel_header_type2 page_container">
+    <div class="img_container">
+        <img src="../../assets/images/RoyalHotelHeader.png" alt="">
+    </div>
+    <div class="hotel_description">
+        <p>It is an extension of the group's journey. The hotel is in the center of Jeddah, in front of the UAE Consulate in Al Sharafiyah district. It is characterized by its strategic location in the heart of the vibrant city of Jeddah, where the markets and major commercial centers are located. The hotel is also characterized by its proximity to the charming Jeddah Corniche, where the famous Jeddah Fountain is located, and it is 25 A minute from King Abdulaziz International Airport and the city of pilgrims.</p>
+    </div>
+</div>
+
+<!-- start carousel -->
+<div class="page_container">
+    <div class="hotelCarousel">
+        <div class="room_carousel_container">
+            <div class="rooms_carousel">
+                <div class="room">
+                    <img src="../../assets/images/royalHotel1.png" alt="">
+                </div>
+                <div class="room">
+                    <img src="../../assets/images/royalHotel2.png" alt="">
+                </div>
+                <div class="room">
+                    <img src="../../assets/images/royalHotel3.png" alt="">
+                </div>
+                <button class="nextProduct" @click="next()">&#10094;</button>
+                <button class="pervProduct" @click="previous()">&#10095;</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page_container">
+    <div class="hotel_sections_type2 flex_all_center">
+        <h3>Hotel halls</h3>
+    </div>
+</div>
+
+<!-- HOTEL HALLS -->
+<div class="page_container">
+    <div class="hotel_halls_container">
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img">
+                    <img src="../../assets/images/AlflelawalelaHall.png" alt="">
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel">
+                                <div class="room">
+                                    <img src="../../assets/images/AlflelawalelaHall1.png" alt="">
+                                </div>
+                                <div class="room">
+                                    <img src="../../assets/images/AlflelawalelaHall2.png" alt="">
+                                </div>
+                                <div class="room">
+                                    <img src="../../assets/images/AlflelawalelaHall3.png" alt="">
+                                </div>
+                                <button class="nextProduct" @click="next()">&#10094;</button>
+                                <button class="pervProduct" @click="previous()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- start carousel -->
+            </div>
+            <div class="description">
+                <h3>Alf lela wa lela Hall</h3>
+                <p>The hall was designed in a unique style of the luxury of the Arab decoration, which takes you to the charming romantic atmosphere and between the eras of a thousand and one nights to offer a unique type of hotel services. The hall can accommodate numbers between 200 to 250 people with a variety of Arab and international menus that suit different tastes.</p>    
+            </div>
+        </div>
+
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img">
+                    <img src="../../assets/images/CinderellaHall.png" alt="">
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel">
+                                <div class="room">
+                                    <img src="../../assets/images/CinderellaHall1.png" alt="">
+                                </div>
+                                <div class="room">
+                                    <img src="../../assets/images/CinderellaHall2.png" alt="">
+                                </div>
+                                <div class="room">
+                                    <img src="../../assets/images/CinderellaHall3.png" alt="">
+                                </div>
+                                <button class="nextProduct" @click="next()">&#10094;</button>
+                                <button class="pervProduct" @click="previous()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h3>Cinderella Hall</h3>
+                <p>It is one of the distinguished banquet halls and was designed according to an Italian level of decoration that reflects the luxury of hotel service. The hall can accommodate numbers ranging from 100 to 150 people approximately, with a selection of menus that have been specially prepared to suit the tastes of your invitees from the masterpieces of the chef.</p>    
+            </div>
+        </div>
+
+        <div class="hall flex_space_between">
+            <div class="img_container">
+                <div class="main_img">
+                    <img src="../../assets/images/AlLualuaHall.png" alt="">
+                </div>
+                <div>
+                    <div class="hotelCarousel">
+                        <div class="room_carousel_container">
+                            <div class="rooms_carousel">
+                                <div class="room">
+                                    <img src="../../assets/images/AlLualuaHall1.png" alt="">
+                                </div>
+                                <div class="room">
+                                    <img src="../../assets/images/AlLualuaHall2.png" alt="">
+                                </div>
+                                <div class="room">
+                                    <img src="../../assets/images/AlLualuaHall3.png" alt="">
+                                </div>
+                                <button class="nextProduct" @click="next()">&#10094;</button>
+                                <button class="pervProduct" @click="previous()">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h3>Al Lualua Hall</h3>
+                <p>The hall can accommodate a number of approximately 200 to 250 people, in an atmosphere of romance and luxury that the hotel management was keen on providing an unforgettable night of a lifetime with selected menus of eastern and western food to suit the number of invitees.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- hotel services -->
+<div class="page_container">
+    <div class="hotel_services flex_space_between">
+        <h3>Hotel services</h3>
+        <div class="servicesContainer">
+            <h4 class="title_with_right_border"> <div class="rightBorder"></div>Rooms and suites </h4>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  Royal suites </span>
+                    <p> The hotel includes among its sides 10 distinct suites, characterized by the splendor of decoration and luxury of design, and includes 2 main rooms, an American-style kitchen, a dining table, and a reception salon. For 8 people, it was designed according to the latest hotel standards.</p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  Executive Suites </span>
+                    <p> The hotel contains many single and double rooms that have been specially designed to meet the desire of business leaders and have been provided with internet services with wireless communication system according to the latest technological systems. </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  Executive rooms </span>
+                    <p> The hotel contains many single and double rooms that were specially designed to meet the desire of business leaders and have been provided with internet services with a wireless connection system according to the latest technological systems </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  Room cleaning service </span>
+                    <p> The hotel management has been keen to provide a trained staff according to the best hotel standards, which offers a selection of several varieties to suit different tastes and is available 24 hours a day. </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>  Room service </span>
+                    <p> Selected meals from the chef's masterpieces are served with a selection of the most delicious Arab and international dishes 24 hours a day. If you have a desire for special items, the team of chefs is happy to serve you. </p>
+                </div>
+            </div>
+            <div class="roomServices">
+                <div class="service">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> Internet  </span>
+                    <p> The hotel management has been keen to provide the best business services during your stay in the hotel, so please inquire about the secret number from the staff to connect your device to the wireless internet service (free of charge). </p>
+                </div>
+            </div>
+        </div>
+        <div class="servicesContainer">
+            <h4 class="title_with_right_border"> <div class="rightBorder"></div>In the hotel </h4>
+            <div class="hotelServices">
+                <div class="service">
+                    <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> Al Dana Restaurant </span>
+                    <p> It is one of the services that the hotel provides to airline crews throughout the year, including hot and cold drinks and snacks throughout the day, entertainment from the pool table and international TV channels, in addition to an operations office equipped with technological services, high speed Internet, printing, copying, and photocopying, in order to provide the best hotel services for flight crews staying at the hotel throughout the year. </p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> Car rental company </span>
+                    <p> The hotel was keen to provide a free pick-up service from the airport to the hotel.</p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg>Parking </span>
+                    <p> The hotel management has been keen to provide everything that guests need during their stay through the gift shop located in the hotel lobby.</p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> Security services </span>
+                    <p> Lotus is a cafe that offers a variety of menus and drinks of your choice throughout the dayم </p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> Mosque </span>
+                    <p> It is located on the second floor to serve the hotel's guests and guests </p>
+                </div>
+            </div>
+            <div class="hotelServices">
+                <div class="service">
+                    <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                      </svg> Waching Machine </span>
+                    <p> The hotel management has been keen to provide trained staff according to the best hotel standards to provide dry cleaning, laundry, and steam ironing service to hotel guests throughout the day in accordance with international quality standards. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="HotelContactUs">
+    <h3>Contact Us</h3>
+    <p>+966126827771</p>
+    <p>sales@casablanca-ksa.com</p>
+    <p>Kingdom of Saudi Arabia - Jeddah</p>
+    <p>P.O : 3655-21481 Jeddah</p>
+</div>
+
+    <!-- start Footer -->
+    <footer class="footer">
+        <div class="top_footer">
+            <div>
+                <h3>Contact Us</h3>
+                <ul class="left_flex">
+                    <li class="li_border">
+                        <span>+966 0122222203 <br> +966 0126827771</span>
+                        <img src="../../assets/images/phoneIcone.png" alt="">    
+                    </li>
+                    <li class="li_border">
+                        <p>sales@casablanca-grand.com</p>
+                        <img src="../../assets/images/messegeIcon.png" alt="">
+                    </li>
+                    <li>
+                        <p>Jeddah - Saqer Quraish Street</p>
+                        <img src="../../assets/images/locationIcon.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_services">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="Hotels.html"> Hotels  </a></li>
+                    <li><a href="../SupplyandCatering.html"> Supply and Catering </a></li>
+                    <li><a href="../HajjandOmrah.html"> Hajj and Omrah </a></li>
+                    <li><a href="../PartiesandEvents.html">  Events and Parties </a></li>
+                </ul>
+            </div>
+            <div class="footer_category">
+                <ul>
+                    <li> <a href="../OutdoorParties.html">  Events and Parties </a> </li>
+                    <li> <a href="../TransportationServices.html">  Transportation </a> </li>
+                    <li> <a href="../TourismandTravelAgency.html"> Travel and Tourism </a> </li>
+                    <li> <a href="../LogisticServices.html"> Logistic Services </a> </li>
+                </ul>
+            </div>
+            <div>
+                <img src="../../assets/images/whiteHouseLogo.png" alt="">
+            </div>
+        </div>
+        <div class="bottom_footer flex_space_between">
+            <p>Terms and Conditions | Privacy Policy</p>
+            <p>All Rights Are Reserved</p>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    
+    <!-- /// Start Of JS Script /// -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="../../assets/JS/main.js"></script>
+
+</body>
+
+</html>
