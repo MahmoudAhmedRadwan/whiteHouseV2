@@ -88,18 +88,9 @@
         <div class="mina" id="MinaContent">
             <div class="hotelCarousel">
                 <div class="room_carousel_container">
-                    <div class="rooms_carousel">
-                        <div class="room">
-                            <img src="../assets/images/HajjandOmrah1.png" alt="">
-                        </div>
-                        <div class="room">
-                            <img src="../assets/images/HajjandOmrah2.png" alt="">
-                        </div>
-                        <div class="room">
-                            <img src="../assets/images/HajjandOmrah3.png" alt="">
-                        </div>
-                        <button class="nextProduct" @click="next()">&#10094;</button>
-                        <button class="pervProduct" @click="previous()">&#10095;</button>
+                    <div class="rooms_carousel" id="hajjandOmrah_carousel">
+                        <button class="nextProduct" onclick="hajjandOmrahNextImg()">&#10094;</button>
+                        <button class="pervProduct" onclick="hajjandOmrahPrevious()">&#10095;</button>
                     </div>
                 </div>
             </div>
@@ -345,6 +336,7 @@
 
         
     </script>
+    <script src="../assets/JS/Carousels/hajjandOmrah.js"></script>
 </body>
 
 </html>

@@ -89,18 +89,9 @@
     <div class="page_container">
         <div class="hotelCarousel">
             <div class="room_carousel_container">
-                <div class="rooms_carousel">
-                    <div class="room">
-                       <img src="../../assets/images/CasablancaPalaceHotel1.png" alt="">
-                    </div>
-                    <div class="room">
-                        <img src="../../assets/images/CasablancaPalaceHotel2.png" alt="">
-                    </div>
-                    <div class="room">
-                        <img src="../../assets/images/CasablancaPalaceHotel3.png" alt="">
-                    </div>
-                    <button class="nextProduct" @click="next()">&#10094;</button>
-                    <button class="pervProduct" @click="previous()">&#10095;</button>
+                <div class="rooms_carousel" id="casablancaPalaceHotel_carousel">
+                    <button class="nextProduct" onclick="casablancaPalaceHotelNextImg()">&#10094;</button>
+                    <button class="pervProduct" onclick="casablancaPalaceHotelPrevious()">&#10095;</button>
                 </div>
             </div>
         </div>
@@ -134,15 +125,15 @@
                 <ul class="left_flex">
                     <li class="li_border">
                         <span>9660122222203+ <br> 9660126827771+ </span>
-                        <img src="../assets/images/phoneIcone.png" alt="">    
+                        <img src="../../assets/images/phoneIcone.png" alt="">    
                     </li>
                     <li class="li_border">
                         <p>sales@casablanca-grand.com</p>
-                        <img src="../assets/images/messegeIcon.png" alt="">
+                        <img src="../../assets/images/messegeIcon.png" alt="">
                     </li>
                     <li>
                         <p>جدة شارع صقر قريش</p>
-                        <img src="../assets/images/locationIcon.png" alt="">
+                        <img src="../../assets/images/locationIcon.png" alt="">
                     </li>
                 </ul>
             </div>
@@ -178,6 +169,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="../../assets/JS/main.js"></script>
+    <script src="../../assets/JS/Carousels/AzizaHotel.js"></script>
 
 </body>
 

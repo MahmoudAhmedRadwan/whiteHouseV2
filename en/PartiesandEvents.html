@@ -68,25 +68,16 @@
     </div>
 </div>
 
-    <header class="center_title_header flex_all_center" style="background-image: url('../assets/images/PartiesandEventsHeader.png')">
+    <header class="center_title_header flex_all_center fullWidthHeader" style="background-image: url('../assets/images/PartiesandEventsHeader.png')">
         <span>Parties and Events</span>
     </header>
 
     <div class="page_container">
         <div class="hotelCarousel">
             <div class="room_carousel_container">
-                <div class="rooms_carousel">
-                    <div class="room">
-                        <img src="../assets/images/PartiesandEvents1.png" alt="">
-                    </div>
-                    <div class="room">
-                        <img src="../assets/images/PartiesandEvents2.png" alt="">
-                    </div>
-                    <div class="room">
-                        <img src="../assets/images/PartiesandEvents3.png" alt="">
-                    </div>
-                    <button class="nextProduct" @click="next()">&#10094;</button>
-                    <button class="pervProduct" @click="previous()">&#10095;</button>
+                <div class="rooms_carousel" id="partiesandEvents_carousel">
+                    <button class="nextProduct" onclick="partiesandEventsNextImg()">&#10094;</button>
+                    <button class="pervProduct" onclick="partiesandEventsPrevious()">&#10095;</button>
                 </div>
             </div>
         </div>
@@ -150,7 +141,7 @@
     <!-- /// Start Of JS Script /// -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    <script src="../assets/JS/main.js"></script>
+    <script src="../assets/JS/Carousels/partiesandEvents.js"></script>
 
 </body>
 

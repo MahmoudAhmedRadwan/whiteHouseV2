@@ -67,25 +67,16 @@
     </div>
 </div>
 
-    <header class="center_title_header flex_all_center" style="background-image: url('../assets/images/outdoorPartiesHeader.png')">
+    <header class="center_title_header flex_all_center fullWidthHeader" style="background-image: url('../assets/images/hafalatnew.jpg')">
         <span>Outdoor Parties</span>
     </header>
 
     <div class="page_container">
         <div class="hotelCarousel">
             <div class="room_carousel_container">
-                <div class="rooms_carousel">
-                    <div class="room">
-                        <img src="../assets/images/OutdoorParties1.png" alt="">
-                    </div>
-                    <div class="room">
-                        <img src="../assets/images/OutdoorParties2.png" alt="">
-                    </div>
-                    <div class="room">
-                        <img src="../assets/images/OutdoorParties3.png" alt="">
-                    </div>
-                    <button class="nextProduct" @click="next()">&#10094;</button>
-                    <button class="pervProduct" @click="previous()">&#10095;</button>
+                <div class="rooms_carousel" id="outdoorParties_carousel">
+                    <button class="nextProduct" onclick="outdoorPartiesNextImg()">&#10094;</button>
+                    <button class="pervProduct" onclick="outdoorPartiesPrevious()">&#10095;</button>
                 </div>
             </div>
         </div>
@@ -177,7 +168,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="../assets/JS/main.js"></script>
-
+    <script src="../assets/JS/Carousels/OutdoorParties.js"></script>
 </body>
 
 </html>

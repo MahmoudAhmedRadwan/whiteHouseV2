@@ -97,18 +97,9 @@
 <div class="page_container">
     <div class="hotelCarousel">
         <div class="room_carousel_container">
-            <div class="rooms_carousel">
-                <div class="room">
-                    <img src="../../assets/images/royalHotel1.png" alt="">
-                </div>
-                <div class="room">
-                    <img src="../../assets/images/royalHotel2.png" alt="">
-                </div>
-                <div class="room">
-                    <img src="../../assets/images/royalHotel3.png" alt="">
-                </div>
-                <button class="nextProduct" @click="next()">&#10094;</button>
-                <button class="pervProduct" @click="previous()">&#10095;</button>
+            <div class="rooms_carousel" id="royalHotel_carousel">
+                <button class="nextProduct" onclick="royalHotelNextImg()">&#10094;</button>
+                <button class="pervProduct" onclick="royalHotelPrevious()">&#10095;</button>
             </div>
         </div>
     </div>
@@ -125,24 +116,15 @@
     <div class="hotel_halls_container">
         <div class="hall flex_space_between">
             <div class="img_container">
-                <div class="main_img">
-                    <img src="../../assets/images/AlflelawalelaHall.png" alt="">
+                <div class="main_img alflelawalelaHall_main_img">
+                    <!-- <img src="../../assets/images/AlflelawalelaHall.png" alt=""> -->
                 </div>
                 <div>
                     <div class="hotelCarousel">
                         <div class="room_carousel_container">
-                            <div class="rooms_carousel">
-                                <div class="room">
-                                    <img src="../../assets/images/AlflelawalelaHall1.png" alt="">
-                                </div>
-                                <div class="room">
-                                    <img src="../../assets/images/AlflelawalelaHall2.png" alt="">
-                                </div>
-                                <div class="room">
-                                    <img src="../../assets/images/AlflelawalelaHall3.png" alt="">
-                                </div>
-                                <button class="nextProduct" @click="next()">&#10094;</button>
-                                <button class="pervProduct" @click="previous()">&#10095;</button>
+                            <div class="rooms_carousel" id="alflelawalelaHall_carousel">
+                                <button class="nextProduct" onclick="alflelawalelaHallNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="alflelawalelaHallPrevious()">&#10095;</button>
                             </div>
                         </div>
                     </div>
@@ -157,24 +139,15 @@
 
         <div class="hall flex_space_between">
             <div class="img_container">
-                <div class="main_img">
-                    <img src="../../assets/images/CinderellaHall.png" alt="">
+                <div class="main_img cinderellaHall_main_img">
+                    <!-- <img src="../../assets/images/CinderellaHall.png" alt=""> -->
                 </div>
                 <div>
                     <div class="hotelCarousel">
                         <div class="room_carousel_container">
-                            <div class="rooms_carousel">
-                                <div class="room">
-                                    <img src="../../assets/images/CinderellaHall1.png" alt="">
-                                </div>
-                                <div class="room">
-                                    <img src="../../assets/images/CinderellaHall2.png" alt="">
-                                </div>
-                                <div class="room">
-                                    <img src="../../assets/images/CinderellaHall3.png" alt="">
-                                </div>
-                                <button class="nextProduct" @click="next()">&#10094;</button>
-                                <button class="pervProduct" @click="previous()">&#10095;</button>
+                            <div class="rooms_carousel" id="cinderellaHall_carousel">
+                                <button class="nextProduct" onclick="cinderellaHallNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="cinderellaHallPrevious()">&#10095;</button>
                             </div>
                         </div>
                     </div>
@@ -188,24 +161,15 @@
 
         <div class="hall flex_space_between">
             <div class="img_container">
-                <div class="main_img">
-                    <img src="../../assets/images/AlLualuaHall.png" alt="">
+                <div class="main_img alLualuaHall_main_img">
+                    <!-- <img src="../../assets/images/AlLualuaHall.png" alt=""> -->
                 </div>
                 <div>
                     <div class="hotelCarousel">
                         <div class="room_carousel_container">
-                            <div class="rooms_carousel">
-                                <div class="room">
-                                    <img src="../../assets/images/AlLualuaHall1.png" alt="">
-                                </div>
-                                <div class="room">
-                                    <img src="../../assets/images/AlLualuaHall2.png" alt="">
-                                </div>
-                                <div class="room">
-                                    <img src="../../assets/images/AlLualuaHall3.png" alt="">
-                                </div>
-                                <button class="nextProduct" @click="next()">&#10094;</button>
-                                <button class="pervProduct" @click="previous()">&#10095;</button>
+                            <div class="rooms_carousel" id="alLualuaHall_carousel">
+                                <button class="nextProduct" onclick="alLualuaHallNextImg()">&#10094;</button>
+                                <button class="pervProduct" onclick="alLualuaHallPrevious()">&#10095;</button>
                             </div>
                         </div>
                     </div>
@@ -388,6 +352,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="../../assets/JS/main.js"></script>
+    <script src="../../assets/JS/Carousels/CasablancaRoyalHotel.js"></script>
 
 </body>
 

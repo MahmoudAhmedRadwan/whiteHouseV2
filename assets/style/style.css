@@ -203,6 +203,35 @@ select {
   }
 }
 
+.fullWidthHeader {
+  background-size: cover;
+  height: 690px;
+}
+
+@media (max-width: 1400px) {
+  .fullWidthHeader {
+    height: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .fullWidthHeader {
+    height: 379px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fullWidthHeader {
+    height: 280px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fullWidthHeader {
+    height: 200px;
+  }
+}
+
 .display_none {
   display: none;
 }
